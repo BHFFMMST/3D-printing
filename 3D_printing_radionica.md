@@ -56,7 +56,9 @@ https://www.raise3d.com/academy/a-beginners-guide-to-3d-printing/
 
 ### Pozdravljanje i predstavljanje
 
-Podešavnje radionice. Pro tip: Prije početka radionice provjeriti da li sve od opreme radi kako treba.
+Podešavnje radionice. 
+
+Pro tip: Prije početka radionice provjeriti da li sve od opreme radi kako treba.
 
 Dočekivanje učesnika
 
@@ -68,20 +70,28 @@ Ovo ovdje je Y a ja sam X. Mi smo ti i ti...
 
 ### Kratak sadržaj radionice
 
-U ovoj radionici ćemo va
+U današnjoj radionici ćemo preći preko sljedećih tema
+
+- Historijat tehnologije 3D printanja
+- Tipovi tehnologija 3D printanja
+- Tipovi 3D printera
+- Prednosti i mane 3D printera i tehnologija
+- **Kako radi 3D printer**
+- **Kako poći od ideje i doći do gotovog 3D printa**
+- Kako koristiti Ender 3 pro 3D printer
+- Gdje naučiti više o ovim stvarima
 
 ### Icebreaker
 
 Jedan od primjera:
-
 **Reci svoje ime + tvoj najupečatljiviji mindblown momemant**
 
 Zašto želimo da znamo tvoj mindblown momenat?
--Jer želimo da danas budeš mindblown
+-Jer želimo da i danas budeš mindblown
 
 Motivacija za ovaj *icebreak-er*, pored "zagrijavanja" učesnika i uspostavljanja komunijacije, je i to da se postavi neka referentna vrijednost oduševljenja prouzrokovanog učenjem novih stvari. Radionica je dizajnirana tako da na zanimljiv način predstavi tehnologiju 3D printanja i ako količina oduševljenja bude uporediva sa najvećim mindblown momentom, znamo da je radionica bila uspješna.
 
-Naravno, ovo je samo sugestija i ono što ja volim koristiti kao icebreak-er. Icebreaker može biti bilo šta.
+Naravno, ovo je samo sugestija, icebreaker može biti bilo šta.
 
 ### BH Futures fondacija
 
@@ -113,13 +123,13 @@ Postoje razne tehnike 3D printanja ali svakoj je zajedničko to da model stvaraj
 
 Pa su tako neke od najzastupljenijih tehnika FDM, SLS, SLM i DLP. Kratko ćemo preći preko svake od tehnika i osvrnuti se na njihove značajke.
 
-FDM ili Fused Deposition Modelling je jedna od najćešćih tehnika u hobi 3D printerima i većina 3D printera koje vidite se bazira na ovoj tehnici. U ovoj tehnici, slojevi koji čine model su dobijeni topljenjem materijala u željeni oblik. Ekstruder, odnosno uređaj koji topi materijal i izbacuje ga kroz svoju mlaznicu, je fiksiran na pokretnu glavu. Ekstruder se kreće u prostoru i tako slaže istopljeni materijal, sloj po sloj. Materijali koji se najćešće koriste u ovoj tehnici su razni tipovi plastike, uglavnom ABS plastika ili PLA plastika. Više riječi o ovoj tehnologiji i njenim specifičnostima će biti riječi u nastavku.
+**FDM ili Fused Deposition Modelling** je jedna od najćešćih tehnika u hobi 3D printerima i većina 3D printera koje vidite se bazira na ovoj tehnici. U ovoj tehnici, slojevi koji čine model su dobijeni topljenjem materijala u željeni oblik. Ekstruder, odnosno uređaj koji topi materijal i izbacuje ga kroz svoju mlaznicu, je fiksiran na pokretnu glavu. Ekstruder se kreće u prostoru i tako slaže istopljeni materijal, sloj po sloj. Materijali koji se najćešće koriste u ovoj tehnici su razni tipovi plastike, uglavnom ABS plastika ili PLA plastika. Više riječi o ovoj tehnologiji i njenim specifičnostima će biti riječi u nastavku.
 
-Naredna tehnika je SLM ili Selective Laser Melting. Ova tehnika koristi lasere velike snage koji tope i tako spajaju metalni prah na kojeg je laser fokusiran. Fokus lasera se pomjera i "crta" željeni oblik u spremniku sa metalnim prahom. Nakon što se završi iscrtavanje oblika sloja, ponovno se nanosi sloj metalnog praha i nastavlja se crtanje. Tako se trenuno iscrtani sloj spaja sa prethodnim slojem. Ova tehnika 3D printanja omogućava da se naprave metalni 3D modeli koji se ne bi inače mogli dobiti konvencionalnim metodam obrade ili izljevevanja metala.
+Naredna tehnika je **SLM ili Selective Laser Melting**. Ova tehnika koristi lasere velike snage koji tope i tako spajaju metalni prah na kojeg je laser fokusiran. Fokus lasera se pomjera i "crta" željeni oblik u spremniku sa metalnim prahom. Nakon što se završi iscrtavanje oblika sloja, ponovno se nanosi sloj metalnog praha i nastavlja se crtanje. Tako se trenuno iscrtani sloj spaja sa prethodnim slojem. Ova tehnika 3D printanja omogućava da se naprave metalni 3D modeli koji se ne bi inače mogli dobiti konvencionalnim metodam obrade ili izljevevanja metala.
 
-Pored SLM tehnike imamo i SLA odnosno Stereolitografsku tehiku 3D printanja. Ova tehnika također koristi lasere, mada u ovom slučaju najćešće ultra-ljubičaste lasere koji, umjesto po metalnom prahu, crtaju po smoli koja se stvrdnjava u kontaktu sa svjetlošču UV frekvencija.
+Pored SLM tehnike imamo i **SLA odnosno Stereolitografsku** tehiku 3D printanja. Ova tehnika također koristi lasere, mada u ovom slučaju najćešće ultra-ljubičaste lasere koji, umjesto po metalnom prahu, crtaju po smoli koja se stvrdnjava u kontaktu sa svjetlošču UV frekvencija.
 
-I na kraju, preostaje nam još DLP odnosno Digital Light Processing tehnika koja je slična SLA tehnici po tome što koristi svjetlosno osjetljivu smolu kao materijal ali se razlikuje po tome što ne korisit lasere nego posebne svjetlosne projektore. Ovi projektori formiraju projekciju željenog oblika sloja. Zbog ove osobine, za razliku od SLA tehnike, moguće je generisati cijeli sloj u jednom koraku, bez potrebe da se oblik "crta" konturu po konturu. Zbog ovoga, ova tehnika je brža u odnosu na prethodne dvije.
+I na kraju, preostaje nam još **DLP odnosno Digital Light Processing** tehnika koja je slična SLA tehnici po tome što koristi svjetlosno osjetljivu smolu kao materijal ali se razlikuje po tome što ne korisit lasere nego posebne svjetlosne projektore. Ovi projektori formiraju projekciju željenog oblika sloja. Zbog ove osobine, za razliku od SLA tehnike, moguće je generisati cijeli sloj u jednom koraku, bez potrebe da se oblik "crta" konturu po konturu. Zbog ovoga, ova tehnika je brža u odnosu na prethodne dvije.
 
 <u>Šta sve ljudi printaju</u>
 
@@ -129,35 +139,35 @@ Primjeri šta se ljudi printaju. Slike/videi nekih od interesantnih primjena teh
 
 Do sada smo već pomenuli neke od prednosti koje se vezuju za tehnologiju 3D printanja.
 
-(Fleksibilan dizajn modela) Prva i najveća prednost ove tehnologije je to što može proizvesti oblike koje druge tehnologije jednostavno nisu u mogućnosti. 3D printanje nas oslobađa limitacija koje se vezuju uz konvencionalne metode proizvodnje i dozvoljava nam da generišemo kompleksne modele koje bi bilo nemoguće proizvesti na neki drugi način.
+(**Fleksibilan dizajn modela**) Prva i najveća prednost ove tehnologije je to što može proizvesti oblike koje druge tehnologije jednostavno nisu u mogućnosti. 3D printanje nas oslobađa limitacija koje se vezuju uz konvencionalne metode proizvodnje i dozvoljava nam da generišemo kompleksne modele koje bi bilo nemoguće proizvesti na neki drugi način.
 
-(Brzo prototipiranje) Pored ovoga, tehnologija 3D printanja je relativno brza i omogućava nešto što zovemo brzo prototipiranje. Kad kažemo da je brza, mislimo na vrijeme potrebno za realizaciju od nastanka ideje do gotovog modela. Modeli mogu biti isprintani u periodu od nekoliko sati, što uveliko ubrzava proces prototipiranja i dozvoljava efikasniji i brži proces stvaranja novih proizvoda.
+(**Brzo prototipiranje**) Pored ovoga, tehnologija 3D printanja je relativno brza i omogućava nešto što zovemo brzo prototipiranje. Kad kažemo da je brza, mislimo na vrijeme potrebno za realizaciju od nastanka ideje do gotovog modela. Modeli mogu biti isprintani u periodu od nekoliko sati, što uveliko ubrzava proces prototipiranja i dozvoljava efikasniji i brži proces stvaranja novih proizvoda.
 
-(Proizvodnja po potrebi) Za razliku od drugih metoda, 3D printanje ne zahtijeva mnogo skladišnog prostora  jer je modele moguće printati po potrebi. 3D kompjuterski modeli se čuvaju u digitalnoj arhivi, a printanje se obavlja samo kada je to potrebno. Izmjene 3D kompjuterskih modela su praktički bez troška jer zahtijevaju samo da ponovno isprintate promijenjeni model.
+(**Proizvodnja po potrebi**) Za razliku od drugih metoda, 3D printanje ne zahtijeva mnogo skladišnog prostora  jer je modele moguće printati po potrebi. 3D kompjuterski modeli se čuvaju u digitalnoj arhivi, a printanje se obavlja samo kada je to potrebno. Izmjene 3D kompjuterskih modela su praktički bez troška jer zahtijevaju samo da ponovno isprintate promijenjeni model.
 
-(Različiti materijali) Iako je plastika najčešći materijal koji se koristi u tehnologiji 3D printanja, moguće je koristiti i različite legure metala. S time da plastika posjeduje prednosti zbog odnosa težine i izdržljivosti. Pored plastike, moguće je koristiti i materijali koji mogu zadovoljiti uslove fleksibilnosti, toplotne otpornosti ili otpornosti na vodu i druge hemikalije.
+(**Različiti materijali**) Iako je plastika najčešći materijal koji se koristi u tehnologiji 3D printanja, moguće je koristiti i različite legure metala. S time da plastika posjeduje prednosti zbog odnosa težine i izdržljivosti. Pored plastike, moguće je koristiti i materijali koji mogu zadovoljiti uslove fleksibilnosti, toplotne otpornosti ili otpornosti na vodu i druge hemikalije.
 
-(Efikasna proizvodnja) Tehnologija 3D printanja je jako efikasan način proizvodnje jer minimizira gubitke povezane sa izradom dijelova. Izrada dijelova korištenjem ove tehnologije zahtjeva samo materijal neophodan za izradu samog dijela, sa malo ili nimalo gubitaka.
+(**Efikasna proizvodnja**) Tehnologija 3D printanja je jako efikasan način proizvodnje jer minimizira gubitke povezane sa izradom dijelova. Izrada dijelova korištenjem ove tehnologije zahtjeva samo materijal neophodan za izradu samog dijela, sa malo ili nimalo gubitaka.
 
-(Relativno niska cijena) Zbog ovoga i zbog činjenice da 3D printanje štedi vrijeme, cijena za izradu nekog modela se znatno smanjuje. 3D printeri mogu biti podešeni i pušteni da obavljaju proces bez potrebe za operatorima koji bi bili sve vrijeme uz printer.
+(**Relativno niska cijena**) Zbog ovoga i zbog činjenice da 3D printanje štedi vrijeme, cijena za izradu nekog modela se znatno smanjuje. 3D printeri mogu biti podešeni i pušteni da obavljaju proces bez potrebe za operatorima koji bi bili sve vrijeme uz printer.
 
-(Pristupačnost) Zadnja ali ne i manje važna u nizu prednosti je to što je tehnologija 3D printanja pristupačna gotovo svima. 3D printere solidnih perfomansi je moguće pronaći za relativno niske cijene a ukoliko nam je neophodan skuplji tip printera, moguće je koristiti i servise koji će nam obaviti posao bez potrebe da nabavljamo skupu opremu. 
+(**Pristupačnost**) Zadnja ali ne i manje važna u nizu prednosti je to što je tehnologija 3D printanja pristupačna gotovo svima. 3D printere solidnih perfomansi je moguće pronaći za relativno niske cijene a ukoliko nam je neophodan skuplji tip printera, moguće je koristiti i servise koji će nam obaviti posao bez potrebe da nabavljamo skupu opremu. 
 
 Kao i sve stvari na svijetu, ni tehnologija 3D printanja nije savršena.
 
-(Male serije modela) Jedan od najvećih nedostataka tehnologije 3D printanja je nemogućnost printanja velikog broja primjeraka u kratko vrijeme. Za razliku od konvencionalnih metoda izrade plastičnih dijelova, kao što je brizganje plastike, izrada izrada jednog 3D printanog dijela uvijek traje isto vrijeme, bez obzira na količinu primjeraka koji se proizvode. Ova činjenica je jako nepogodna u kontekstu serijske proizvodnje dijelova jer sa povećanjem broja primjeraka cijena i vrijeme neophodno za proizvodnju ne opada, kao kod tehnike brizgana plastike.
+(**Male serije modela**) Jedan od najvećih nedostataka tehnologije 3D printanja je nemogućnost printanja velikog broja primjeraka u kratko vrijeme. Za razliku od konvencionalnih metoda izrade plastičnih dijelova, kao što je brizganje plastike, izrada izrada jednog 3D printanog dijela uvijek traje isto vrijeme, bez obzira na količinu primjeraka koji se proizvode. Ova činjenica je jako nepogodna u kontekstu serijske proizvodnje dijelova jer sa povećanjem broja primjeraka cijena i vrijeme neophodno za proizvodnju ne opada, kao kod tehnike brizgana plastike.
 
-(Struktura 3D modela) Kao što smo više puta pomenuli do sada, svi 3D printani dijelovi se generišu sloj po sloj. Iako su ovi slojevi međusobno spojeni, veza između dva sloja ima nešto slabiju čvrstoću od samih slojeva. Ovaj problem je naglašeniji kod FDM printera jer su slojevi uglavnom viši u odnosu na druge thenike. Zbog ove činjenice, način orijentacije 3D printa može da utiče na sveukupnu čvrstoću i otpornost printa.
+(**Struktura 3D modela**) Kao što smo više puta pomenuli do sada, svi 3D printani dijelovi se generišu sloj po sloj. Iako su ovi slojevi međusobno spojeni, veza između dva sloja ima nešto slabiju čvrstoću od samih slojeva. Ovaj problem je naglašeniji kod FDM printera jer su slojevi uglavnom viši u odnosu na druge thenike. Zbog ove činjenice, način orijentacije 3D printa može da utiče na sveukupnu čvrstoću i otpornost printa.
 
-(Ograničena veličina modela) U većini slučajeva, 3D print mora da bude manji od samog 3D printera, što znači da je maksimalna veličina 3D modela uvjetovana dimenzijama 3D printera. Veliki broj hobi 3D printera ima zapreminu printanja ispod 40 kubnih centimetara tako da svi dijelovi koji se dobiju korištenjem ovih printera moraju da budu manji od toga. Ovaj nedostatak se rješava printanjem više manjih dijelova koji se poslije spajaju, ali naravno za ovo je potrebno dodatno vrijeme i trud.
+(**Ograničena veličina modela**) U većini slučajeva, 3D print mora da bude manji od samog 3D printera, što znači da je maksimalna veličina 3D modela uvjetovana dimenzijama 3D printera. Veliki broj hobi 3D printera ima zapreminu printanja ispod 40 kubnih centimetara tako da svi dijelovi koji se dobiju korištenjem ovih printera moraju da budu manji od toga. Ovaj nedostatak se rješava printanjem više manjih dijelova koji se poslije spajaju, ali naravno za ovo je potrebno dodatno vrijeme i trud.
 
-(Naknadna obrada) Iako kod većine primjena finalna obrada 3D printova nije neophodna, postoje situacije kada se postprocesiranje ne može izbjeći. Na primjer, kod SLA tehnik, 3D printove je neophodno oprati od smole i nad njima primjeniti poseban proces koji osigurava potpuno stvrdnjavanje smole. Čak i kod FDM printova često je neophodno skinuti support materijal koji je neophodna u procesu 3D printanja kako bi se izbjeglo "printanje u po zraku".
+(**Naknadna obrada**) Iako kod većine primjena finalna obrada 3D printova nije neophodna, postoje situacije kada se postprocesiranje ne može izbjeći. Na primjer, kod SLA tehnik, 3D printove je neophodno oprati od smole i nad njima primjeniti poseban proces koji osigurava potpuno stvrdnjavanje smole. Čak i kod FDM printova često je neophodno skinuti support materijal koji je neophodna u procesu 3D printanja kako bi se izbjeglo "printanje u po zraku".
 
 Sada kada smo završili sa prednostima i manama 3D printanja i dobili solidnu teoretsku podlogu na ovu temu, možemo preći na praktičnije stvari.
 
 ### Kako konkretno radi 3D printer
 
-Ovo što vidite ispred vas je FDM 3D printer. Konkretno ovaj printer se zove Ender 3 Pro
+Ovo što vidite ispred vas je FDM 3D printer. Konkretno ovaj printer se zove **Ender 3 Pro**
 
 Konkretno ovaj printer je baziran na originalnom Prusa dizajnu. Pored ovih izvedba FDM printera imamo delta izvedbu i polarnu izvedbu. Sve ove izvedbe su bazirane na istoj FDM tehnici, a jedina razlika je u načinu realizacije kretanja ekstrudera. Kao što vidite ovaj (kartezijski) printer, za kretanje glave ekstrudera  po osama koristi aktuatore koji se kreću po istim osama. Delta i polarni 3D printeri koriste nešto drugačiji sistem kretanja ekstrudera, mada ove razlike nemaju prevelik utjecaj na finalni ishod printa.
 
@@ -222,7 +232,7 @@ Primjer ovoga bi mogla biti medalja. Na medalju dodaš datum i vrijeme.
 
 ### Šta smo danas naučili
 
-### 
+Na slajdu prezentacije se nalazi spisak stvari koje su učesnici trebali naučiti. Zajedno sa učesnicima proći preko ti stvari i ukratno ponoviti gradivo.
 
 ### Završni kviz
 
