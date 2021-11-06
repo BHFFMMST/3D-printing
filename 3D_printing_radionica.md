@@ -2,22 +2,14 @@
 
 <u>Ukratko o radionici:</u>
 
-- Dužina radionice: 60-90 mintuta
-- Potrebne stvari za radionicu: funkcionalni 3D printer i filament
-- Oprema za učestike: opcionalno računari
+- Naziv radionice: Radionica 3D printanja za početnike
+- Dužina radionice: 60-90 mintuta (zavisno od dinamike)
 - Cilj radionice: Upoznavanje učesnika bez tehničkog predznanja sa tehnologijom 3D printanja
+- Potrebne stvari za radionicu: funkcionalni 3D printer i filament
 
 <u>Informacije o radionici</u>
 
 Radionica na temu tehnologije 3D printanja ima za zadatak pružanje osnovne teoretske i praktične podloge na temu tehnologije 3D printanja. Radionica je prvenstveno namjenjena srednjoškolcima i studentima bez prethodne tehničke pozadine. Pored teoretskih stvari vezanih za tehnologiju 3D printanja, učesnici radionice će imati priliku da i uživo vide 3D printere i proces 3D printanja, od izrade kompjuterskog modela do gotovog predmeta. Na kraju radionice učesnici će kroz kviz imati priliku da provjere usvojeno znanje gdje će za najbolje učesnike biti upriličene i simbolične nagrade.
-
-- Naziv radionice: Radionica 3D printanja za početnike
-- Predviđena dužina trajanja radionice: 60 minuta
-- Oprema: 
-  - Funkcionalan 3D printer + filament
-  - (Projektor + laptop)
-- Oprema za učesnike:
-  - (Računari)
 
 <u>Ishod radionice</u>
 
@@ -39,7 +31,7 @@ https://www.raise3d.com/academy/a-beginners-guide-to-3d-printing/
 
 1. Pozdravljanje i predstavljanje (Mi smo ti i ti, radićemo to i to)
 2. Šta će se raditi u današnjoj radionici (overview)
-3. Kviz: Predstavljanje. (Ko sam ja i šta je moj najupečatljiviji mind blown momenat)
+3. Kviz: Predstavljanje. (npr. Ko sam ja i šta je moj najupečatljiviji mind blown momenat)
 4. Predstavljanje rada BH Futures fondacije
 5. Uvod u tehnologiju 3D printanja
    1. Hronologija razvoja
@@ -47,8 +39,9 @@ https://www.raise3d.com/academy/a-beginners-guide-to-3d-printing/
    3. Prednosti i mane 3D printanja
    4. Šta sve ljudi rade sa 3D printerima (primjena 3D printanja)
 6. Kako konkrento radi 3D printer. Pokazivanje dijelova
-7. Live demo 3D printanja (Dizajniranje dijela + sliceovanje + pripremanje 3D printera + printanje)
-8. KVIZ za nagradnu igru: Ko pobijedi dobija 3D printanu nagradu.
+7. (pauza)
+8. Live demo 3D printanja (Dizajniranje dijela + sliceovanje + pripremanje 3D printera + printanje)
+9. KVIZ za nagradnu igru: Ko pobijedi dobija 3D printanu nagradu.
 
 
 
@@ -189,17 +182,19 @@ Sada kada znamo kako tačno funkcioniše 3D printer, pređimo na to kako ga kori
 
 Okej, recimo da u glavi imam ideju da napravim 3D print, recimo da u glavi zamišljam neku finu medalju ;)
 
-Da bi opšte mogli razmišljati o tome da isprintamo ovu medalju, prvo je neophodno da svoju ideju pretvorimo u kompjuterski 3D model. Za te potrebe koristimo razne CAD softvere odnosno Computer Aided Design softvere. Većina 3D CAD sotvera radi istu stvar, pomaže nam da napravimo 3D modele. Spektar ovih softvera je veliki i varira od njihove primjene. Imamo CAD softvere koji se koriste isključivo za mehaničke konstrukcije ali i softvere koji se koriste za samo za takozvani organski 3D dizajn. Neki od poznatih CAD softvera su: Solidwokrs, Autodesk Inventor, .... Cijene ovih softvera se kreću od:
+Da bi opšte mogli razmišljati o tome da isprintamo ovu medalju, prvo je neophodno da svoju ideju pretvorimo u kompjuterski 3D model. Za te potrebe koristimo razne CAD softvere odnosno Computer Aided Design softvere. Većina 3D CAD sotvera radi istu stvar, pomaže nam da napravimo 3D modele. Spektar ovih softvera je veliki i varira od njihove primjene. Imamo CAD softvere koji se koriste isključivo za mehaničke konstrukcije ali i softvere koji se koriste za samo za takozvani organski 3D dizajn. Neki od poznatih CAD softvera su: Solidwokrs, Autodesk Inventor, .... 
 
 ###### 3D modeliranje
 
-Za ovu demonstraciju, mi ćemo koristiti besplatni online CAD softver koji se zove thingiverse.
+Za ovu demonstraciju, mi ćemo koristiti besplatni online CAD softver koji se zove [ThinkerCAD](https://www.tinkercad.com/). 
 
 *Kratka demonstracija funkcionalnosti thingiverse-a
 
 Kao što vidite u ovom softveru možemo dodavati razne elemente, mijenjati veličinu i tako dalje. Korištenjem ovoga možemo bilo koji element koji možemo zamisliti. 
 
-Pošto ovo nije radionica 3D modeliranja, radi uštede vremena, importovati ćemo već gotov 3D model medalje kojeg smo prethodno napravili. Pored toga, na 3D medalju ćemo napisat datum i našu lokaciju, čisto kako bismo demonstrirali mogućnosti personalizacije dizajna.
+Pošto ovo nije radionica 3D modeliranja, radi uštede vremena, importovati ćemo već gotov 3D model medalje kojeg smo prethodno napravili. Model 
+
+ Pored toga, na 3D medalju ćemo napisat datum i našu lokaciju, čisto kako bismo demonstrirali mogućnosti personalizacije dizajna.
 
 ###### Slicing
 
@@ -214,21 +209,9 @@ Kao što vidite ovdje imamo mnogo parametara ali neki od najbitniji parametara s
 - Debljina ljuske sloja, kao što i samo ime kaže, određuje koliko debela će biti vanjska ljuska 3D modela.
 - Support je materijal koji služi da omogući printanje dijelova 3D printa koji ispod sebe nemaju nikakvu podlogu. Kao što znamo, FDM printeri ne mogu printati bez da materijal izbacuju na neku podlogu. U određenim situacijama, 3D modeli zahtjevaju upravo to. Da bi se izbjeglo printanje "po zraku", stavlja se  support materijal koji odstranjuje u završnoj fazi obrade. *Dati ilustrativan primjer.
 
+###### Puštanje 3D printa
 
-
-Počneš od nekog 3D modela. Objasniš ljudima kako se dobijaju 3D modeli
-
-Doradiš .stl fajl korištenjem Thinkercada i skreneš učesnicima pažnju na postojanje i tog modela.
-
-Slajsuješ model
-
-Exportuješ model
-
-Podesiš printer
-
-Isprintaš
-
-Primjer ovoga bi mogla biti medalja. Na medalju dodaš datum i vrijeme.
+Puštanje eksportovanog modela na 3D printer. Eksportovani G-Code koristiti na konkretnom printeru.
 
 ### Šta smo danas naučili
 
