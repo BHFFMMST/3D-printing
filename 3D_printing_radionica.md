@@ -128,6 +128,16 @@ I na kraju, preostaje nam još **DLP odnosno Digital Light Processing** tehnika 
 
 Primjeri šta se ljudi printaju. Slike/videi nekih od interesantnih primjena tehnologije 3D printanja. 
 
+- Igračke
+- Funkcionalni dijelovi
+- Mašine
+- Prostetika
+- Kuće
+- Organi
+- ...
+
+Sa tehnologijom 3D printanja samo nebo je granica, POD USLOVOM DA ZNAMO NJENE LIMITACIJE.
+
 <u>Prednosti i mane 3D printanja</u>
 
 Do sada smo već pomenuli neke od prednosti koje se vezuju za tehnologiju 3D printanja.
@@ -180,34 +190,44 @@ Sada kada znamo kako tačno funkcioniše 3D printer, pređimo na to kako ga kori
 
 ### LIVE DEMO procesa 3D printanja
 
-Okej, recimo da u glavi imam ideju da napravim 3D print, recimo da u glavi zamišljam neku finu medalju ;)
+Okej, recimo da u glavi imam ideju za neki 3D objekat, recimo da u glavi zamišljam neku finu medalju ;)
 
-Da bi opšte mogli razmišljati o tome da isprintamo ovu medalju, prvo je neophodno da svoju ideju pretvorimo u kompjuterski 3D model. Za te potrebe koristimo razne CAD softvere odnosno Computer Aided Design softvere. Većina 3D CAD sotvera radi istu stvar, pomaže nam da napravimo 3D modele. Spektar ovih softvera je veliki i varira od njihove primjene. Imamo CAD softvere koji se koriste isključivo za mehaničke konstrukcije ali i softvere koji se koriste za samo za takozvani organski 3D dizajn. Neki od poznatih CAD softvera su: Solidwokrs, Autodesk Inventor, .... 
+Da bi opšte mogli razmišljati o tome da isprintamo ovu medalju, prvo je neophodno da svoju ideju pretvorimo u kompjuterski 3D model. Za te potrebe koristimo razne CAD softvere odnosno Computer Aided Design softvere. Većina 3D CAD sotvera radi istu stvar, pomaže nam da napravimo 3D modele. Spektar ovih softvera je veliki i varira od njihove primjene. Imamo CAD softvere koji se koriste isključivo za mehaničke konstrukcije ali i softvere koji se koriste za samo za takozvani organski 3D dizajn. Neki od poznatih CAD softvera su: Solidwokrs, Autodesk Inventor, ...
+
+Veliki broj profesionalnih 3D CAD alata se plaća i njihova cijena je visoka zbog činjenice da se oni koriste za stvaranje proizvoda koji u konačnici donose profit. Ako ste zainteresovani za 3D modeliranje kao (materijalno isplativu) karijeru, dosta sadržaja i kurseva možete pronaći na internetu samo tražeći "3D modeliranje za početnike"
 
 ###### 3D modeliranje
 
 Za ovu demonstraciju, mi ćemo koristiti besplatni online CAD softver koji se zove [ThinkerCAD](https://www.tinkercad.com/). 
 
-*Kratka demonstracija funkcionalnosti thingiverse-a
+*Kratka demonstracija funkcionalnosti thingiverse-a:
+
+- Importovanje elementa (.stl export)
+- Promjena veličine elemenata
+- Dodavanje/oduzimanje objekata
+- ...
+- Eksportovanje elementa (.stl export)
 
 Kao što vidite u ovom softveru možemo dodavati razne elemente, mijenjati veličinu i tako dalje. Korištenjem ovoga možemo bilo koji element koji možemo zamisliti. 
 
 Pošto ovo nije radionica 3D modeliranja, radi uštede vremena, importovati ćemo već gotov 3D model medalje kojeg smo prethodno napravili. Model 
 
- Pored toga, na 3D medalju ćemo napisat datum i našu lokaciju, čisto kako bismo demonstrirali mogućnosti personalizacije dizajna.
+Pored toga, na 3D medalju ćemo napisati tekst po našoj želji, čisto kako bismo demonstrirali mogućnosti personalizacije dizajna.
 
 ###### Slicing
 
 Nakon što smo zadovoljni sa dizajnom, 3D model ćemo eksportovati u .stl formatu koji je standardni format za 3D printere. Naš naredni korak je slajsovanje 3D modela kojeg smo napravili.
 
-Kao što smo već rekli, slajsovanje 3D modela njegov oblik pretvara u niz putanja koje se šalju na 3D printer. Za slajsovanje koristimo Cura softver.
+Kao što smo već rekli, slajsovanje 3D modela njegov oblik pretvara u niz putanja koje se šalju na 3D printer. Te putanje čine strukturu slojeva koji u konačnici čine finalni 3D print.
+
+Za slajsovanje koristimo Cura softver.
 
 Kao što vidite ovdje imamo mnogo parametara ali neki od najbitniji parametara su:
 
-- Infill: Ovaj parametar određuje količinu plastike koja će se nalaziti u unutrašnjem dijelu 3D modela. Nekad nije potrebno imati 3D model koji je u potpunosti ispunjen plastikom. Ovo nam pomaže da uštedimo materijal, smanjimo masu printa i ubrzamo vrijeme izrade.
-- Debljina jednog sloja: Već nekoliko puta smo rekli da se proces 3D printanja izvršav sloj po sloj. Debljina sloja je parametar koji određuje upravo debljinu jednog sloja. Ovaj parametar je bitan jer direktno utiče na rezoluciju 3D printa. Drugim riječima, ovaj parametar određuje koliko će 3D print biti hrapav i naboran zbog slojeva ali i to koliko će se ukupno vremena i plastike potrošiti.
-- Debljina ljuske sloja, kao što i samo ime kaže, određuje koliko debela će biti vanjska ljuska 3D modela.
-- Support je materijal koji služi da omogući printanje dijelova 3D printa koji ispod sebe nemaju nikakvu podlogu. Kao što znamo, FDM printeri ne mogu printati bez da materijal izbacuju na neku podlogu. U određenim situacijama, 3D modeli zahtjevaju upravo to. Da bi se izbjeglo printanje "po zraku", stavlja se  support materijal koji odstranjuje u završnoj fazi obrade. *Dati ilustrativan primjer.
+- **Infill**: Ovaj parametar određuje količinu plastike koja će se nalaziti u unutrašnjem dijelu 3D modela. Nekad nije potrebno imati 3D model koji je u potpunosti ispunjen plastikom. Ovo nam pomaže da uštedimo materijal, smanjimo masu printa i ubrzamo vrijeme izrade.
+- **Debljina jednog sloja**: Već nekoliko puta smo rekli da se proces 3D printanja izvršav sloj po sloj. Debljina sloja je parametar koji određuje upravo debljinu jednog sloja. Ovaj parametar je bitan jer direktno utiče na rezoluciju 3D printa. Drugim riječima, ovaj parametar određuje koliko će 3D print biti hrapav i naboran zbog slojeva ali i to koliko će se ukupno vremena i plastike potrošiti.
+- **Debljina ljuske sloja**, kao što i samo ime kaže, određuje koliko debela će biti vanjska ljuska 3D modela.
+- **Support** je materijal koji služi da omogući printanje dijelova 3D printa koji ispod sebe nemaju nikakvu podlogu. Kao što znamo, FDM printeri ne mogu printati bez da materijal izbacuju na neku podlogu. U određenim situacijama, 3D modeli zahtjevaju upravo to. Da bi se izbjeglo printanje "po zraku", stavlja se  support materijal koji odstranjuje u završnoj fazi obrade. *Dati ilustrativan primjer.
 
 ###### Puštanje 3D printa
 
@@ -219,9 +239,15 @@ Na slajdu prezentacije se nalazi spisak stvari koje su učesnici trebali naučit
 
 ### Završni kviz
 
-Finalna provjera znanja za sve učesnike.
+Finalna provjera znanja za sve učesnike. Pripremljeni se nalazi u folderu sa materijalima pod nazivom `Kviz - 3D printanje.pptx`
 
-Pobjednik kviza dobija medalju koja proizvedena tehnologijom 3D printanja. Kviz bi trebao da traje baš onoliko vremena koliko je neophodno za printanje medalje.
+Učesnici neka pripreme nešto u čemu mogu bilježiti svoje odgovore na ponuđena pitanja. To može biti papir, bilježnica ili mobitel. Ono što bi bilo fer, jeste to da, kada se odgovor jednom napiše, nema prepravljanja. To jeste, nema prepravljanja odgovora nakon momenta izricanja tačnog odgovora.
+
+Proći kroz pitanja i nakon svakog pitanja ostaviti vrijeme da učesnici odgovore na pitanje. 15-30 sekundi bi trebalo biti dovoljno vremena za odgovor. Kada se završi sa svim pitanjima, ponovno se vratiti na početak kviza i dati tačne odgovore na kviz. Kviz bi trebao da traje baš onoliko vremena koliko je neophodno za printanje medalje. 
+
+Jako je bitno da tačni odgovori na pitanja obrazloženi. Ovo pomaže učesnicima da  što lakše nauče i usvoje gradivo koje im se prezentira.
+
+Pobjednik kviza dobija medalju koja proizvedena tehnologijom 3D printanja.
 
 ---
 
